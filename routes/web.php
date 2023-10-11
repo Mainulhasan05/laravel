@@ -20,4 +20,9 @@ Route::get('/', function () {
 Route::get('/test',function(){
     return "Hello World";
 });
+
+Route::get("/hi",function(){
+    return view("hi");
+});
+
 // say hi
